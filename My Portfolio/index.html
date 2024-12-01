@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="home-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm <strong>AJAI</strong>, a passionate web developer and data analyst.</p>
+      <button onclick="window.location.href='#contact'">Contact Me</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a web developer with a background in software engineering. I enjoy creating user-friendly and responsive websites. My skills include HTML, CSS, JavaScript, and various frameworks like React and also Proficient in data analysis tools like Excel, SQL, and Python, enabling efficient data manipulation and insights generation.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>This weather app provides real-time weather updates by utilizing data from a reliable weather API. Users can search for current weather conditions, including temperature, humidity, wind speed, and weather forecasts for any location. The app features an intuitive interface with responsive design for both desktop and mobile users. Built with JavaScript, HTML, and CSS, it incorporates dynamic data fetching and displays weather information in a user-friendly format. This project demonstrates proficiency in API integration, front-end developm</p>
+      </div>
+      <!-- Project 2 -->
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>This project showcases the frontend development of a fully responsive e-commerce store. Built using HTML, CSS, and JavaScript, it features a user-friendly interface with interactive product listings, a shopping cart, and a seamless checkout experience. The design is fully responsive, ensuring optimal user experience across desktop and mobile devices. Key features include product detail pages, and an interactive cart system. This project demonstrates proficiency in frontend technologies and modern web design principles</p>
+      </div>
+      <!-- Project 3 -->
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>A challenging 2D hill bike game where players control a bike navigating through hilly terrains, using four simple keys to balance and avoid obstacles. The game is designed to test your reflexes and strategic movement as you ride through rugged hills, jumps, and challenging slopes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 AJAI. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
